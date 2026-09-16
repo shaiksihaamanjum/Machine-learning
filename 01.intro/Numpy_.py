@@ -32,3 +32,4 @@ print(arr3.mean())  # mean of all ele in array3
 print(arr3.std())  # standard deviation of all ele in array3
 print(np.sin(arr1)) # trigonometry functions  on all ele of  array3  (cos,tan etc.)
 print(np.dot(arr2,arr3))  # matrix multiplication of arrays 
+print(np.linalg.inv(arr3)) # inverse of a matrix
