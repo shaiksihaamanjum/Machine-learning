@@ -11,6 +11,7 @@ arr9=np.full((3,3),3.5)     # array of arbitary number(eg-3.5)
 np.random.seed(2)  # this maintains same sequence while genarating random numbers
 arr10=np.random.rand(3,4)  # random array of floating values of 3 rows and 4 columns 
 arr11=np.random.randint(1,10,(2,2)) # random array between 1 and 10 integers with 2 rows and 2 columns
+arr12=np.eye(3,3)             # identity matrix of (3,3)
 #methods 
 print(arr1.shape)   # gives rows and columns
 print(arr1.size)    #gives total no.of elements
