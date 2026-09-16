@@ -29,4 +29,5 @@ df3=df[df['Embarked']=='S']
 print(df3.shape)
 df4=pd.pivot_table(df,index='Pclass',columns='Sex',values=['Survived'],aggfunc='sum') # to get a summary table for understanding 
 print(df4.head())
+print(df.corr(numeric_only=True)) # to check correlation between numerical columns
 df.to_csv("cleaned_data.csv")   # to save cleaned data into new file
