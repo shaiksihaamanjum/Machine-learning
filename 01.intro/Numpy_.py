@@ -1,6 +1,6 @@
 import numpy as np 
 arr1=np.array([1,2,3,4,5])  # 1D array 
-arr2=np.array([[4,5,6],[1,9,10]]) # 2D array 
+arr2=np.array([[4,5,6],[1,9,10],[1,5,8]]) # 2D array 
 arr3=np.array([[14,5,61],[13,29,51],[11,78,90]])
 arr4=np.arange(1,50,2)  
 arr5=np.arange(51,100,2)
